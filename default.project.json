@@ -1,0 +1,30 @@
+{
+  "name": "ROBLOX Project Template",
+  "emitLegacyScripts": false,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "shared": {
+        "$path": "src/shared"
+      },
+      "events": {
+        "$path": "src/events"
+      },
+      "client": {
+        "$path": "src/client"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+    "ServerScriptService": {
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      },
+
+      "server": {
+        "$path": "src/server"
+      }
+    }
+  }
+}

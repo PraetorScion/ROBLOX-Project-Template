@@ -1,0 +1,22 @@
+[package]
+name = "lincoln-grant-tepace/roblox-project-template"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+fusion = "elttob/fusion@0.3.0"
+janitor = "howmanysmall/janitor@1.18.3"
+conch = "alicesaidhi/conch@0.2.3"
+conch_ui = "alicesaidhi/conch-ui@0.2.3"
+t = "osyrisrblx/t@3.1.1"
+spark = "nezuo/spark@0.3.1"
+TableUtil = "sleitnick/table-util@1.2.1"
+chrono = "parihsz/chrono@1.2.6"
+Loader = "sleitnick/loader@2.0.0"
+
+[server-dependencies]
+lyra = "paradoxum-games/lyra@0.4.1"
+
+[place]
+shared-packages = "game.ReplicatedStorage.Packages"
